@@ -1,34 +1,49 @@
-header{
-    
-}
+
 
 body{
     margin: 0;
     padding: 0;
-    background-color: #efeee7;
+    /* background-color: #efeee7; */
     font-family: Georgia,"Times New Roman",Times,serif;
     color: #333333;
     line-height: 150%;
+    background-color: gray; 
 }
+
+header{
+    /* padding: 40px; */
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    background-color: white;
+    /* clear: both; */
+    overflow: auto;
+}
+
 
 h1{
 }
 
 .name{
-    
-    background-color: #4aaaa5;
+     
+     background-color: #4aaaa5; 
     color: white;
-    font-size: 20px;
     text-align: left;
     padding: 10px;
-    float: left;
+    float: left; 
+    margin-left: 15%;
+    /* margin-bottom: 20%; */
     
 }
 
 .navigate{
+    
+    background-color: yellow;
+    /* position: relative; */
     float: right;
-    margin-top: 30px;
-    margin-right: 10%;
+    /* margin-bottom: 10%; */
+    margin-top: 30px; 
+    margin-right: 15%; 
+    font-size: 20px;
     
 }
 
@@ -36,18 +51,15 @@ h2{
     font-size: 24px;
 }
 
-.container{
-    
-    clear: both;
-    width: 1024px;
-    margin: 0 auto;
+
+
+#about-me{
+    padding-top: 20px;
+    /* float: left; */
+    width: 100%;
+    background-color: whitesmoke;
 }
 
-#main-bio{
-    padding-top: 20px;
-    float: left;
-    width: 70%;
-}
 
 #contact-info{
     float: left;
@@ -63,3 +75,21 @@ h2{
 a{
     color: #d21034;
 }
+
+.container{
+    
+    clear: both;
+    margin: 0 auto;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    /* background-color: gray; */
+    
+}
+
+/* .top{
+    width: 100%;
+    height: 
+    background-color: green;
+    
+} */
