@@ -19,6 +19,12 @@ header{
     overflow: auto;
 }
 
+footer{
+    background-color: darkslategray;
+    margin: 0;
+    text-align: center;
+}
+
 
 h1{
 }
@@ -54,9 +60,9 @@ h2{
 
 
 #about-me{
-    padding-top: 20px;
+    /* padding-top: 20px; */
     /* float: left; */
-    width: 100%;
+    margin: 5%;
     background-color: whitesmoke;
 }
 
@@ -68,8 +74,8 @@ h2{
 
 #bio-image{
     float: left;
+    margin-right: 10px;
     width: 200px;
-    margin-right: 15px;
 }
 
 a{
@@ -83,6 +89,9 @@ a{
     
     margin-left: 15%;
     margin-right: 15%;
+    background-color: green;
+    overflow: auto;
+
     /* background-color: gray; */
     
 }
