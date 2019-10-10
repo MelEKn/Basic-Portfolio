@@ -7,7 +7,8 @@ body{
     font-family: Georgia,"Times New Roman",Times,serif;
     color: #333333;
     line-height: 150%;
-    background-color: gray; 
+    /* background-color: gray;  */
+    background-image: url(../images/soft_wallpaper.png)
 }
 
 header{
@@ -57,13 +58,17 @@ h2{
     font-size: 24px;
 }
 
-
+#about-me-headline{
+    
+    margin-left: 5%;
+    font-size: 24px;
+    color: #4aaaa5;
+}
 
 #about-me{
     /* padding-top: 20px; */
     /* float: left; */
-    margin: 5%;
-    background-color: whitesmoke;
+    margin: 20px;
 }
 
 
@@ -85,11 +90,11 @@ a{
 .container{
     
     clear: both;
-    margin: 0 auto;
+    margin: 40px;
     
     margin-left: 15%;
     margin-right: 15%;
-    background-color: green;
+    background-color: white;
     overflow: auto;
 
     /* background-color: gray; */
