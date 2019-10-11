@@ -44,7 +44,7 @@ h1{
 
 .navigate{
     
-    background-color: yellow;
+    /* background-color: yellow; */
     /* position: relative; */
     float: right;
     /* margin-bottom: 10%; */
@@ -58,7 +58,7 @@ h2{
     font-size: 24px;
 }
 
-#about-me-headline{
+#headline{
     
     margin-left: 5%;
     font-size: 24px;
@@ -84,7 +84,7 @@ h2{
 }
 
 a{
-    color: #d21034;
+    color: darkslategray;
 }
 
 .container{
