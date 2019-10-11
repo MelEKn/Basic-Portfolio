@@ -94,6 +94,40 @@ h2{
     width: 200px;
 }
 
+.portfolio-images{
+    width: 200px;
+    margin: 5%;
+}
+
+
+.full{
+    /* position: relative; */
+    text-align: center;
+    color: white;
+     float: left; 
+}
+
+/* #image1{
+     position: relative; 
+    bottom: 40%;
+    left: 40%;
+} */
+
+.label{
+    position: relative;
+    background-color: #4aaaa5; 
+   color: white;
+   text-align: center;
+   padding: 8px;
+   /* float: left;  */
+   top: -70px;
+   left: 10px;
+   /* margin-bottom: 20%; */
+   
+}
+
+
+
 a{
     color: darkslategray;
 }
@@ -112,6 +146,8 @@ a{
     /* background-color: gray; */
     
 }
+
+
 
 /* .top{
     width: 100%;
