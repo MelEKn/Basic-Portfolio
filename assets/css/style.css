@@ -9,6 +9,8 @@ body{
     line-height: 150%;
     /* background-color: gray;  */
     background-image: url(../images/soft_wallpaper.png)
+    
+   
 }
 
 header{
@@ -19,6 +21,12 @@ header{
     /* clear: both; */
     overflow: auto;
 }
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+  }
+
 
 footer{
     position: absolute;
@@ -93,12 +101,13 @@ a{
 .container{
     
     clear: both;
+    min-height: 100%;
     margin: 40px;
     
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
-    overflow: auto;
+     overflow: auto; 
 
     /* background-color: gray; */
     
