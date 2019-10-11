@@ -21,8 +21,11 @@ header{
 }
 
 footer{
+    position: absolute;
+    width: 100%;
     background-color: darkslategray;
     margin: 0;
+    bottom: 0;
     text-align: center;
 }
 
